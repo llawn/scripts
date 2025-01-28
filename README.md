@@ -6,3 +6,26 @@
 # Scripts
 
 My scripts for different os
+
+|ID | PROGRAM                 |
+|---|-------------------------|
+|1  |extract-toml-structure.sh|
+
+1. copy a toml file within the same repo and delete
+all value but keep structure
+
+```example.toml
+[database]
+host = "127.0.0.1"
+port = 5432
+username = "admin"
+password = "secret"
+```
+
+```example_copy.toml
+[database]
+host = 
+port =
+username =
+password =
+```
